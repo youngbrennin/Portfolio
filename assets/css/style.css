@@ -7,3 +7,50 @@ lemon : #fce181
 beige : #edeae5
 
 */
+
+nav {
+    height: 100px;
+    padding: 15px 20px 0px 20px;
+    background: rgba(237, 234, 229, .5);
+}
+nav ul a {
+    color: black;
+    font-size: 20px;
+}
+
+a.brand-logo {
+    color: black;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+#particle-js.nav-wrapper {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
