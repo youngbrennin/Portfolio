@@ -11,16 +11,36 @@ beige : #edeae5
 nav {
     height: 100px;
     padding: 15px 20px 0px 20px;
-    background: rgba(237, 234, 229, 0.0);
+    background: white;
     border-bottom: 10px solid #9fedd7;
 }
 nav ul a {
     color: black;
     font-size: 20px;
+    margin-right: 50px;
+    margin-top: -60px;
+}
+
+canvas {
+    margin-top: -15px;
+    position: fixed; 
+    max-height: 105px;
 }
 
 a.brand-logo {
-    color: black;
+    color: black; 
+    font-size: 50PX;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+    padding: 2px;
+}
+
+#propic {
+    width: 150px;
+    height: 150px;
 }
 
 section {
@@ -28,16 +48,26 @@ section {
     height: 100%;
 }
 
-canvas {
-    margin-top: -70px;
-    position: fixed; 
-    max-height: 105px;
+
+.container1 {
+    margin-top: 100px;
 }
 
+.skills {
+    text-align: center;
+    font-size: 15px;
+    padding: 120px;
+    background-color: #9fedd7;
+}
 
+div.col.s6.skill-name {
+    background-color: white;
+    padding: 20px;
+}
 
-
-
+.centered {
+    margin: 0 auto;
+}
 
 
 
