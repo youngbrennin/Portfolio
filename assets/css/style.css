@@ -7,6 +7,9 @@ lemon : #fce181
 beige : #edeae5
 
 */
+h4, h5 {
+    color: #026670;
+}
 
 nav {
     height: 100px;
@@ -33,14 +36,15 @@ a.brand-logo {
 }
 
 img {
-    width: 150px;
-    height: 100px;
+    width: 100px;
+    height: 50px;
     padding: 2px;
 }
 
 #propic {
     width: 150px;
     height: 150px;
+    border-radius: 50%;
 }
 
 section {
@@ -57,22 +61,56 @@ section {
     text-align: center;
     font-size: 15px;
     padding: 120px;
-    background-color: #9fedd7;
+    background-color: #026670;
 }
 
-div.col.s6.skill-name {
-    background-color: white;
+div.col.s4.skill-name {
     padding: 20px;
+    margin: 0 auto;
 }
 
-.centered {
+div.col.s4.skill-name, img {
     margin: 0 auto;
 }
 
 
+div.row {
+background-color: white;
+}
 
+div.col.s12.m7 {
+    margin-top: 70px;
+    width:100%;
+    background: #9fedd7;
+}
 
+div.col.s12.m7 img{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    border: 1px solid #edeae5;
+    margin-top: 10px;
+}
 
+div.card-image {
+background-image: url("../images/blue.png");
+width: 100%;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #026670;
+    text-transform: none;
+    margin-right: 0px;
+}
+
+#bord {
+    border-right: 2px solid #edeae5;
+    padding-right: 10px;
+}
+
+#bordleft {
+    margin-left: 10px;
+}
 
 
 
