@@ -36,8 +36,8 @@ a.brand-logo {
 }
 
 img {
-    width: 100px;
-    height: 50px;
+    width: 148px;
+    height: 98px;
     padding: 2px;
 }
 
@@ -79,7 +79,7 @@ background-color: white;
 }
 
 div.col.s12.m7 {
-    margin-top: 70px;
+    margin-top: 60px;
     width:100%;
     background: #9fedd7;
 }
@@ -118,8 +118,19 @@ width: 100%;
     margin-left: 10px;
 }
 
+.collapsible-header {
+    background-color: #edeae5;
+    border: 1px solid black;
+    color: #026670;
+}
 
+.collapsible-body {
+    color: #026670;
+}
 
+.material-icons {
+    color: #026670;
+}
 
 
 
