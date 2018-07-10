@@ -132,6 +132,19 @@ width: 100%;
     color: #026670;
 }
 
+.card .card-action {
+    background-color: #026670;
+    color: #9fedd7;
+}
+
+#cardtop {
+    background-color: white;
+}
+
+div.col.s12.m6 {
+    background-color: #fef9c7;
+    width: 100%;
+}
 
 
 
